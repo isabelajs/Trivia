@@ -1,0 +1,81 @@
+:root{
+    --typeletter: 'Signika', sans-serif;
+    --bordeRadiusButton: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    width:90%;
+    min-width: 256px;
+    max-width: 900px;
+    height: 500px;
+    background: #FAF8F7;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 10px;
+}
+.text-pregunta{
+    width:90%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: var(--typeletter);
+    font-weight:600;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.contenedor-opciones{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcion{
+    font-family: var(--typeletter);
+    font-weight:600;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    padding: 5px 40px;
+    border: solid #d3d0d0 1px ;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: var(--bordeRadiusButton);
+    background:#ededed;
+    min-width: 250px;
+    width: 40%;
+    height: 37px;
+    cursor: pointer;       
+    margin: 10px;
+}
+
+.siguiente{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: url(https://images-na.ssl-images-amazon.com/images/I/41xkNGjwwiL._AC_SL1000_.jpg)center/contain no-repeat;
+    width: 50px;
+    height: 50px;
+}
