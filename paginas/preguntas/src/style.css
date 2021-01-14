@@ -1,0 +1,153 @@
+:root{
+    --typeletter: 'Signika', sans-serif;
+    --bordeRadiusButton: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: rosybrown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width:90%;
+    min-width: 256px;
+    max-width: 900px;
+    height: 500px;
+    background: #FAF8F7;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 10px;
+}
+
+.contenedor-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+
+.puntaje{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;     
+    width: 100px;
+    height: 37px;
+    padding: 0px 5px;
+    border: solid blue 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.puntaje__moneda{
+    width: 20px;
+    height: 20px;
+    background: goldenrod;
+    border-radius: 50%;
+}
+
+.puntaje__score{
+    font-family: var(--typeletter);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.contenedor-indicador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    width: 100px;
+    height: 37px;
+    border: solid blue 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+
+    font-family: var(--typeletter);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.contenedor-pregunta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.text-pregunta{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: var(--typeletter);
+    font-weight:600;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.contenedor-opciones{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.opcion{
+    font-family: var(--typeletter);
+    font-weight:600;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 5px 40px;
+    border: solid #d3d0d0 1px ;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: var(--bordeRadiusButton);
+    background:#ededed;
+    min-width: 250px;
+    width: 40%;
+    height: 37px;
+    cursor: pointer;       
+    margin: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.button{
+    font-family: var(--typeletter);
+    font-weight:600;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    padding: 5px 40px;
+    border: solid #d3d0d0 1px ;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: var(--bordeRadiusButton);
+    background:#ededed;
+    height: 37px;
+    cursor: pointer;    
+    
+}
