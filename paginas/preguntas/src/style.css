@@ -14,14 +14,14 @@ html{
 }
 
 body{
-    background: rosybrown;
+    background: url("../background.jpg") center/cover no-repeat;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
+/* contenedor general */
 .contenedor{
     display: flex;
     flex-direction: column;
@@ -31,12 +31,15 @@ body{
     width:90%;
     min-width: 256px;
     max-width: 900px;
-    height: 500px;
+    /* height: 500px; */
+    padding: 25px;
     background: #FAF8F7;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(38, 68, 168, 0.16);;
     border-radius: 10px;
+    opacity: 0.95;
 }
 
+/* contenedor del puntaje, tiempo e indice */
 .contenedor-header{
     display: flex;
     flex-direction: row;
@@ -45,7 +48,7 @@ body{
     width: 90%;
 }
 
-
+/* contenedor de la estrella y texto */
 .puntaje{
     display: flex;
     align-items: center;
@@ -53,16 +56,15 @@ body{
     width: 100px;
     height: 37px;
     padding: 0px 5px;
-    border: solid blue 1px;
+    background: rgb(243, 216, 166);
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(160, 113, 51, 0.356);
 }
-
+/* contiene el estilo de la moneda */
 .puntaje__moneda{
     width: 20px;
     height: 20px;
-    background: goldenrod;
-    border-radius: 50%;
+    background: url("../estrella.png") center/cover no-repeat;
 }
 
 .puntaje__score{
@@ -71,6 +73,7 @@ body{
     font-size: 2rem;
 }
 
+/* contiene el indice en que va la pregunta */
 .contenedor-indicador{
     display: flex;
     align-items: center;
@@ -78,16 +81,36 @@ body{
      
     width: 100px;
     height: 37px;
-    border: solid blue 1px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(160, 113, 51, 0.356);
+    background: rgb(243, 216, 166);
+    
 
     font-family: var(--typeletter);
     font-weight: 600;
     font-size: 2rem;
 }
 
+/* contiene el timer */
+.contenedor-timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    width: 100px;
+    height: 37px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(160, 113, 51, 0.356);
 
+    font-family: var(--typeletter);
+    font-weight: 600;
+    font-size: 2rem;
+    background: white;
+}
+
+
+
+/* contiene de manera general las preguntas */
 .contenedor-pregunta{
     display: flex;
     flex-direction: column;
@@ -96,15 +119,18 @@ body{
     width: 90%;
 }
 
+/* contiene el titulo de la pregunta */
 .text-pregunta{
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: var(--typeletter);
     font-weight:600;
     font-size: 3.5rem;
     text-align: center;
+    color: #d81159;
 }
 
+/* contenedor de las opciones de respuesta */
 .contenedor-opciones{
     display: flex;
     flex-wrap: wrap;
@@ -113,6 +139,7 @@ body{
     margin-bottom: 30px;
 }
 
+/* estilo de las opciones */
 .opcion{
     font-family: var(--typeletter);
     font-weight:600;
@@ -121,10 +148,12 @@ body{
     text-align: center;
     color: black;
     padding: 5px 40px;
-    border: solid #d3d0d0 1px ;
+    
+
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: var(--bordeRadiusButton);
     background:#ededed;
+
     min-width: 250px;
     width: 40%;
     height: 37px;
@@ -132,22 +161,33 @@ body{
     margin: 10px;
 }
 
+.opcion:hover{
+    background: #bdb8b8 ;
+}
+
+
+/* oculta las preguntas */
 .hidden{
     display: none;
 }
 
+
+/* contiene el estilo de boton next */
 .button{
     font-family: var(--typeletter);
     font-weight:600;
     font-size: 2rem;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 5px 40px;
-    border: solid #d3d0d0 1px ;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: var(--bordeRadiusButton);
-    background:#ededed;
+    background:#006ba6;
     height: 37px;
     cursor: pointer;    
+}
+
+.button:hover{
+    background-color:#6096b3 ;
 }
 

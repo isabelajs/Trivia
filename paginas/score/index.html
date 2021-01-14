@@ -9,35 +9,39 @@
     <title>Score</title>
 </head>
 <body>
-    <section class="container">
-        <p>Tu resultado es:</p>
-        <br>
-        <div class="container_score">
-            <!-- Muestra el total de aciertos -->
-            <p class="score" id="final_score"> </p>
-    
-        </div>
-        <br>
-        <!-- Texto a mostrar en caso de buen resultado -->
-        <p id="positivo" class="hidden">¡Felicidades! con tus conocimientos  seguro lograrás un cupo dentro del
-            grupo de estudiantes de Laboratoria. 
-        </p>
-        <br>
-        <!-- Texto a mostrar en caso de resultado regular -->
-        <p id="regular" class="hidden">¡No te rindas! sigue preparandote y lograrás un cupo dentro del
-            grupo de estudiantes de Laboratoria. </p>
-            <br>
+    <main class="container">
+
+        <section class="container-header">
+            <h2 class = "title">Tu resultado es:</h2>
+            
+            <div class="container_score">
+                <!-- Muestra el total de aciertos -->
+                <p class="score" id="final_score"> </p>
         
-        <!-- Botones para reintentar o acudir al inicio -->
-        <p class="final_text">¿Quieres probar tus conocimientos una vez más?</p>
-        <div class="final_options">
-            <a class="intentar" href="../bienvenida/menuPreguntas.html"> ¡Por supuesto!
-            </a>
-            <a class="inicio" href="../../index.html"> Salir
-            </a>
-    </section>
+            </div>
+            
+        </section>
+        
+        <section class="container-texto">
+                <!-- Texto a mostrar en caso de buen resultado -->
+            <p id="positivo" class="hidden">¡Felicidades! con tus conocimientos  seguro lograrás un cupo dentro del grupo de estudiantes de Laboratoria.</p>
+            
+            <!-- Texto a mostrar en caso de resultado regular -->
+            <p id="regular" class="hidden">¡No te rindas! sigue preparandote y lograrás un cupo dentro del grupo de estudiantes de Laboratoria. </p>
+                
+        </section>
+
+        <section class="container-final">
+                <!-- Botones para reintentar o acudir al inicio -->
+            <p class="final-text">¿Quieres probar tus conocimientos una vez más?</p>
+            <div class="final-options">
+                <a class="opcion intentar" href="../bienvenida/menuPreguntas.html">¡Por supuesto!</a>
+                <a class="opcion inicio" href="../../index.html">Salir</a>
+            </div>
+        </section>       
+        
+    </main>
     <script src="score.js"></script>
-    
-    
+  
 </body>
 </html>

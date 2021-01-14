@@ -94,7 +94,7 @@ body{
     color: white;
     text-decoration: none;
     padding: 10px 40px;
-    box-shadow: 0px 3px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 3px 5px rgba(89, 73, 30, 0.16);
     border-radius: var(--bordeRadiusButton);
     background: #11296b;
     
@@ -102,8 +102,8 @@ body{
 }
 
 .button:hover{
-    color:#11296b;;
-    background:#ededed;
+    color:white;
+    background:#6975c2;
 }
 
 
@@ -138,10 +138,12 @@ body{
 }
 
 
+
 .contenedor-menu{
     position: relative;
 }
 
+/* imagen de la casita */
 .contenedor-menu>a{
     position:absolute;
     bottom: 10px;
@@ -149,8 +151,6 @@ body{
     
 }
 
-
-/* imagen de la casita */
 .contenedor-menu>a>span{
     display: block;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQccCZubBDXBnOMbTM8dw0pGMGQjij2krIQUA&usqp=CAU) center/cover no-repeat;
