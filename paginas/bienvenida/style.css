@@ -42,7 +42,7 @@ body{
 .title{
     font-family: var(--typeletter);
     font-size: 7rem;
-    color: rgb(57, 35, 180);
+    color:#003f88;
     margin-bottom: 20px;
 }
 
@@ -69,10 +69,10 @@ body{
     font-family: var(--typeletter);
     font-weight: 300;
     font-size: 2rem;
-    padding: 5px;
+    padding: 8px;
     border: 1px dotted #999;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-    margin-right: 20px;
+    margin-right: 100px;
     text-align: center;
     border-radius: var(--bordeRadiusButton);
 }
@@ -91,19 +91,19 @@ body{
     font-family: var(--typeletter);
     font-weight: 600;
     font-size: 2rem;
-    color: black;
+    color: white;
     text-decoration: none;
-    padding: 5px 40px;
-    border: solid #d3d0d0 1px ;
+    padding: 10px 40px;
     box-shadow: 0px 3px 8px rgba(89, 73, 30, 0.16);
     border-radius: var(--bordeRadiusButton);
-    background:#ededed;
-    height: 37px;
+    background: #11296b;
+    
     cursor: pointer;     
 }
 
 .button:hover{
-    color:#1E96FC;
+    color:#11296b;;
+    background:#ededed;
 }
 
 
@@ -111,22 +111,48 @@ body{
 
 /* el boton para la selección de temas */
 .button-math{
-    background:#FFDB57;
+    background:#f5a201;
 }
 
 .button-logic{
-    background: violet;
+    background: #d90429};
 }
 
 .button-basic{
-    background: lightgreen;
+    background:#ff6b35;
 }
 
-/* imagen de la casita */
-#imagen{
-    position: absolute;
+.button-math:hover{
+    color: white;
+    background: #ffd35b;
+}
+
+.button-logic:hover{
+    background: #f16a7a;
+    color: white;
+}
+
+.button-basic:hover{
+    color:white;
+    background: lightsalmon;
+}
+
+
+.contenedor-menu{
+    position: relative;
+}
+
+.contenedor-menu>a{
+    position:absolute;
     bottom: 10px;
-    left: 10px;
+    left:10px;
+    
+}
+
+
+/* imagen de la casita */
+.contenedor-menu>a>span{
+    display: block;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQccCZubBDXBnOMbTM8dw0pGMGQjij2krIQUA&usqp=CAU) center/cover no-repeat;
     width: 40px;
     height: 40px;

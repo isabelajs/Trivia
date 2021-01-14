@@ -75,12 +75,9 @@ function actualizarPregunta(){
         else{
             //guardo el puntaje final para usarlo en la pagina de resultados
             localStorage.setItem("puntajeFinal",score.textContent);
-            location.href = "../menu-preguntas/menuPreguntas.html";
+            location.href = "../score/index.html";
         }
-
     }
-
-
 }
 
 
