@@ -73,6 +73,8 @@ function actualizarPregunta(){
         }
         //enviar a la html de resultados
         else{
+            //guardo el puntaje final para usarlo en la pagina de resultados
+            localStorage.setItem("puntajeFinal",score.textContent)
             location.href = ""
         }
 
