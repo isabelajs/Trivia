@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score.css">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <title>Score</title>
+</head>
+<body>
+    <section class="container">
+        <p>Tu resultado es:</p>
+        <br>
+        <div class="container_score">
+            <!-- Muestra el total de aciertos -->
+            <p class="score" id="final_score"> </p>
+    
+        </div>
+        <br>
+        <!-- Texto a mostrar en caso de buen resultado -->
+        <p id="positivo" class="hidden">¡Felicidades! con tus conocimientos  seguro lograrás un cupo dentro del
+            grupo de estudiantes de Laboratoria. 
+        </p>
+        <br>
+        <!-- Texto a mostrar en caso de resultado regular -->
+        <p id="regular" class="hidden">¡No te rindas! sigue preparandote y lograrás un cupo dentro del
+            grupo de estudiantes de Laboratoria. </p>
+            <br>
+        
+        <!-- Botones para reintentar o acudir al inicio -->
+        <p class="final_text">¿Quieres probar tus conocimientos una vez más?</p>
+        <div class="final_options">
+            <a class="intentar" href="../menu-preguntas/"> ¡Por supuesto!
+            </a>
+            <a class="inicio" href="../inicio/index.html"> Salir
+            </a>
+    </section>
+    <script src="score.js"></script>
+    
+    
+</body>
+</html>

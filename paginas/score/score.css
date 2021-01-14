@@ -1,0 +1,65 @@
+:root{
+    --typeletter: 'Signika', sans-serif;
+    --bordeRadiusButton: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: rgba(238, 231, 11, 0.53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Signika', sans-serif; 
+    font-size: 30px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    width:90%;
+    min-width: 256px;
+    max-width: 900px;
+    height: 500px;
+    background: #FAF8F7;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 10px;
+    text-align: center;
+}
+.container a{
+    display: inline-block;
+    background-color: rgba(238, 231, 11, 0.53);
+    color: black;
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    font-weight:900;
+    padding: 25px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .container_score p{
+    
+    font-size: 70px;
+    background-color: rgba(238, 231, 11, 0.53);
+    border-radius: 10px;
+  }
+  .hidden{
+      display: none;
+  }
+
