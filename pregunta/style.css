@@ -16,6 +16,7 @@ html{
 body{
     background: rosybrown;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -26,7 +27,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
 
     width:90%;
     min-width: 256px;
@@ -36,8 +36,67 @@ body{
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: 10px;
 }
+
+.contenedor-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+
+.puntaje{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;     
+    width: 100px;
+    height: 37px;
+    padding: 0px 5px;
+    border: solid blue 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.puntaje__moneda{
+    width: 20px;
+    height: 20px;
+    background: goldenrod;
+    border-radius: 50%;
+}
+
+.puntaje__score{
+    font-family: var(--typeletter);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.contenedor-indicador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    width: 100px;
+    height: 37px;
+    border: solid blue 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+
+    font-family: var(--typeletter);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.contenedor-pregunta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
 .text-pregunta{
-    width:90%;
     margin-top: 30px;
     margin-bottom: 40px;
     font-family: var(--typeletter);
@@ -51,6 +110,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .opcion{
@@ -58,6 +118,7 @@ body{
     font-weight:600;
     font-size: 2rem;
     text-decoration: none;
+    text-align: center;
     color: black;
     padding: 5px 40px;
     border: solid #d3d0d0 1px ;
@@ -71,11 +132,22 @@ body{
     margin: 10px;
 }
 
-.siguiente{
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    background: url(https://images-na.ssl-images-amazon.com/images/I/41xkNGjwwiL._AC_SL1000_.jpg)center/contain no-repeat;
-    width: 50px;
-    height: 50px;
+.hidden{
+    display: none;
+}
+
+.button{
+    font-family: var(--typeletter);
+    font-weight:600;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    padding: 5px 40px;
+    border: solid #d3d0d0 1px ;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: var(--bordeRadiusButton);
+    background:#ededed;
+    height: 37px;
+    cursor: pointer;    
+    
 }
