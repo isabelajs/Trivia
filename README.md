@@ -28,9 +28,10 @@ Para el día 2 logramos una mejor distribución de tareas e iniciamos con toda l
 
 En el día 3, después de tener la mayoría de funcionalidades listas y prepararnos lo suficiente para lograrlo nos surmegimos nuevamente en el mundo del diseño. Volvimos a pensar como queriamos que las usuarias percibieran cada interacción con nuestra trivia, por ello realizamos el ajuste de los últimos y definitivos detalles con CSS, revisamos las preguntas, cambiamos algunas y así sucesivamente, un trabajo de retroalimentación constante. Finalmente, muy orgullosas de lo conseguido experimentamos con el temporizador. 
 
+
 ### Objetivos de aprendizaje Julissa
 
-## UX
+# UX
 
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
 - [ ] Crear prototipos para obtener feedback e iterar.
@@ -54,6 +55,8 @@ En el día 3, después de tener la mayoría de funcionalidades listas y preparar
 - [ ] Conocer la diferencia entre las distintas formas de declarar variables.
 - [ ] Buenas prácticas de desarrollo
 - [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+
+
 
 ### Objetivos de aprendizaje Isabela
 
