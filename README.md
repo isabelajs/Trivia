@@ -30,7 +30,7 @@ En el día 3, después de tener la mayoría de funcionalidades listas y preparar
 
 ## Producto final (DEMO) 
 
-[Demo del proyecto](https://github.com/isabelajs/Trivia)
+[Demo del proyecto](https://isabelajs.github.io/Trivia/)
 
 
 ## Autores ✒️
