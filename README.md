@@ -73,7 +73,7 @@ En el día 3, después de tener la mayoría de funcionalidades listas y preparar
 ### DOM
 
 - [x] Entender y reconocer los selectores del DOM.
-- [x] Manejar eventos del DOM.
+- [ ] Manejar eventos del DOM.
 - [ ] Manipular dinámicamente el DOM.
 
 ### JavaScript
