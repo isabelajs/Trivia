@@ -4,7 +4,7 @@ Se trata de una divertida trivia cuyo objetivo es que aspirantes al bootcamp de 
 
 ## Nuestro proceso creativo🔧
 
-Partimos por determinar un tema y la forma en que queremos el usuario interactúe con nuestra creación. Es aaí surgió la idea de realiza una especie de "¿quien quiere ser millonario?" y después de pensar en las miles de categorías que se podrían incluir en este juego, a partir de nuestro actual proceso optamos por dirigirlo a chicas como nosotras, interesadas en practicar para acceder a este equipo y contribuir en su crecimiento personal. Es así que las interesadas podrán disfrutas de preguntas sencillas relacionadas con matemáticas, razonamiento lógico y conocimientos básicos en HTML. 
+Partimos por determinar un tema y la forma en que queremos el usuario interactúe con nuestra creación. Es así surgió la idea de realiza una especie de "¿quien quiere ser millonario?" y después de pensar en las miles de categorías que se podrían incluir en este juego, a partir de nuestro actual proceso optamos por dirigirlo a chicas como nosotras, interesadas en practicar para acceder a este equipo y contribuir en su crecimiento personal. Es así que las interesadas podrán disfrutas de preguntas sencillas relacionadas con matemáticas, razonamiento lógico y conocimientos básicos en HTML. 
 
 
 ### Prototipo de baja fidelidad 📋
