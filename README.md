@@ -30,17 +30,24 @@ En el día 3, después de tener la mayoría de funcionalidades listas y preparar
 
 ### Objetivos de aprendizaje Julissa
 
-##UX
+#UX
+
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
 - [ ] Crear prototipos para obtener feedback e iterar.
+
 ##HTML y CSS
+
 - [ ] Entender y reconocer por qué es importante el HTML semántico.
 - [ ] Identificar y entender tipos de selectores en CSS.
+
 ##DOM
+
 - [ ] Entender y reconocer los selectores del DOM.
 - [ ] Manejar eventos del DOM.
 - [ ] Manipular dinámicamente el DOM.
+
 ##JavaScript
+
 - [ ] Entender el uso de condicionales (if/else)
 - [ ] Utilizar funciones como mecanismo de control de flujo y reuso de código.
 - [ ] Conocer la diferencia entre los distintos tipos de datos.
@@ -51,16 +58,23 @@ En el día 3, después de tener la mayoría de funcionalidades listas y preparar
 ### Objetivos de aprendizaje Isabela
 
 ##UX
+
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] Crear prototipos para obtener feedback e iterar.
+
 ##HTML y CSS
+
 - [x] Entender y reconocer por qué es importante el HTML semántico.
 - [x] Identificar y entender tipos de selectores en CSS.
+
 ##DOM
+
 - [x] Entender y reconocer los selectores del DOM.
 - [x] Manejar eventos del DOM.
 - [ ] Manipular dinámicamente el DOM.
+
 ##JavaScript
+
 - [x] Entender el uso de condicionales (if/else)
 - [ ] Utilizar funciones como mecanismo de control de flujo y reuso de código.
 - [x] Conocer la diferencia entre los distintos tipos de datos.
