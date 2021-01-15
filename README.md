@@ -28,27 +28,45 @@ Para el día 2 logramos una mejor distribución de tareas e iniciamos con toda l
 
 En el día 3, después de tener la mayoría de funcionalidades listas y prepararnos lo suficiente para lograrlo nos surmegimos nuevamente en el mundo del diseño. Volvimos a pensar como queriamos que las usuarias percibieran cada interacción con nuestra trivia, por ello realizamos el ajuste de los últimos y definitivos detalles con CSS, revisamos las preguntas, cambiamos algunas y así sucesivamente, un trabajo de retroalimentación constante. Finalmente, muy orgullosas de lo conseguido experimentamos con el temporizador. 
 
-### Objetivos de aprendizaje
+### Objetivos de aprendizaje Julissa
 
 UX
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ]Crear prototipos para obtener feedback e iterar.
+- [ ] Crear prototipos para obtener feedback e iterar.
 HTML y CSS
-- [ ]Entender y reconocer por qué es importante el HTML semántico.
-- [ ]Identificar y entender tipos de selectores en CSS.
+- [ ] Entender y reconocer por qué es importante el HTML semántico.
+- [ ] Identificar y entender tipos de selectores en CSS.
 DOM
-- [ ]Entender y reconocer los selectores del DOM.
-- [ ]Manejar eventos del DOM.
-- [ ]Manipular dinámicamente el DOM.
+- [ ] Entender y reconocer los selectores del DOM.
+- [ ] Manejar eventos del DOM.
+- [ ] Manipular dinámicamente el DOM.
 JavaScript
-- [ ]Entender el uso de condicionales (if/else)
-- [ ]Utilizar funciones como mecanismo de control de flujo y reuso de código.
-- [ ]Conocer la diferencia entre los distintos tipos de datos.
-- [ ]Conocer la diferencia entre las distintas formas de declarar variables.
-- [ ]Buenas prácticas de desarrollo
-- [ ]Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Entender el uso de condicionales (if/else)
+- [ ] Utilizar funciones como mecanismo de control de flujo y reuso de código.
+- [ ] Conocer la diferencia entre los distintos tipos de datos.
+- [ ] Conocer la diferencia entre las distintas formas de declarar variables.
+- [ ] Buenas prácticas de desarrollo
+- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
 
+### Objetivos de aprendizaje Isabela
 
+UX
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+HTML y CSS
+- [x] Entender y reconocer por qué es importante el HTML semántico.
+- [x] Identificar y entender tipos de selectores en CSS.
+DOM
+- [x] Entender y reconocer los selectores del DOM.
+- [x] Manejar eventos del DOM.
+- [ ] Manipular dinámicamente el DOM.
+JavaScript
+- [x] Entender el uso de condicionales (if/else)
+- [ ] Utilizar funciones como mecanismo de control de flujo y reuso de código.
+- [x] Conocer la diferencia entre los distintos tipos de datos.
+- [ ] Conocer la diferencia entre las distintas formas de declarar variables.
+- [ ] Buenas prácticas de desarrollo
+- [x] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
 
 
 ## Producto final (DEMO) 
