@@ -139,6 +139,12 @@ body{
     margin-bottom: 30px;
 }
 
+.contenedor-temaPreguntas{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* estilo de las opciones */
 .opcion{
     font-family: var(--typeletter);

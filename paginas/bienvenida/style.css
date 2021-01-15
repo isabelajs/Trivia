@@ -40,6 +40,7 @@ body{
 }
 
 .title{
+    text-align: center;
     font-family: var(--typeletter);
     font-size: 7rem;
     color:#003f88;
@@ -55,7 +56,6 @@ body{
     font-size: 3rem;
     text-align: center;
 }
-
 
 
 /* estilos del contenedor de ingreso del nombre */
@@ -80,9 +80,10 @@ body{
 /* contenedor del tema de las preguntas */
 .contenedor-temaPreguntas{
     display:flex;
-    width: 90%;
+    width: 80%;
     align-items: center;
     justify-content: space-around; 
+    flex-wrap: wrap;
 }
 
 
@@ -107,7 +108,12 @@ body{
 }
 
 
-
+.button--category{
+    text-align: center;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width:200px;
+}
 
 /* el boton para la selección de temas */
 .button-math{

@@ -13,9 +13,18 @@ let score = document.getElementById("puntaje")
 let puntaje = 0;
 let indicePregunta =1;
 const numeroPreguntas = 5;
+let  timer = document.getElementById("timer")
+let chronometer;
 //creamos una variable para que guarde el boton seleccionado
 var seleccionada;
 
+
+let defectTime = 30;
+let contador = defectTime;
+
+
+//inicializar el timer despues de que la pagina esta cargada
+setTimer()
 
 // recorro cada una de las opciones
 for (const opcion of opciones) { 
@@ -26,29 +35,38 @@ for (const opcion of opciones) {
 
 function evaluar(opcion){
     
-        //si la variable seleccionada esta vacia se ejecute el codigo
-        if(seleccionada == undefined){
-            //le asigno a la variable la opcion que seleccione, para que no me permita el ciclo y no me deje seleccionar más opciones
-            seleccionada = opcion
-            //si la opcion tiene la clase correcta se pinta de verde,sino de rojo
-            //correcta
-            if(opcion.classList.contains("correcta")) {
-                opcion.style.background = "lightgreen";
-                puntaje += 200;
-                score.textContent = puntaje.toString()
-            } 
-            //no es correcta
-            else{
-                opcion.style.background = "lightsalmon"
-            }
+    //si la variable seleccionada esta vacia se ejecute el codigo
+    if(seleccionada == undefined){
+        //le asigno a la variable la opcion que seleccione, para que no me permita el ciclo y no me deje seleccionar más opciones
+        seleccionada = opcion
+
+        clearInterval(chronometer)
+        //si la opcion tiene la clase correcta se pinta de verde,sino de rojo
+        //correcta
+        if(opcion.classList.contains("correcta")) {
+            opcion.style.background = "lightgreen";
+            puntaje += 200;
+            score.textContent = puntaje.toString()
+        } 
+        //no es correcta
+        else{
+            opcion.style.background = "lightsalmon"
         }
+    }
 
 }
 
-function actualizarPregunta(){
+function actualizarPregunta(byTimer=false){
 
     //controlo el boton de siguiente al preguntar si la variable contiene algun valor(en esta caso si ya le dio click a algo)
-    if(seleccionada !== undefined){
+    if(seleccionada !== undefined || byTimer==true){
+
+        clearInterval(chronometer)
+
+        contador = defectTime;
+        timer.textContent = contador;
+
+        setTimer()
         //si el indice de la pregunta es menor que el numero de preguntas, se cambian las pantallas de las preguntas
         if (indicePregunta < numeroPreguntas){
             //obtengo la pregunta actual
@@ -81,3 +99,22 @@ function actualizarPregunta(){
 }
 
 
+
+function setTimer(){
+
+    chronometer = setInterval(() => {
+        contador--
+        timer.textContent = contador;
+
+
+        if(contador==0){
+            timer.textContent = contador;
+            clearInterval(chronometer);
+            actualizarPregunta(true);
+      
+        }
+
+    }, 1000);
+
+
+}
